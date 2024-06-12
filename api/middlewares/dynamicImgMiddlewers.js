@@ -7,7 +7,6 @@ exports.uploadPhoto = (destination, fileNameInModel) => {
     },
     filename: (req, file, cb) => {
       const ext = file.mimetype.split('/')[1];
-      console.log(file.originalname);
       cb(null, `${destination}-${file.originalname}`);
     },
   });

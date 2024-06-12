@@ -6,9 +6,10 @@ const router = express.Router();
 router.use(authMiddlewers.protect);
 router
   .route('/')
-  .get(registrantController.getAllregistrant)
+  .get(
+    authMiddlewers.restrictTo('admin'),
+    registrantController.getAllregistrant
+  )
   .post(addVarBody('user', 'userId'), registrantController.createregistrant);
-router
-  .route('/:id')
-  .delete(registrantController.deleteregistrant);
+router.route('/:id').delete(registrantController.deleteregistrant);
 module.exports = router;

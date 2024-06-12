@@ -515,7 +515,7 @@
 								{
 									"key": "image",
 									"type": "file",
-									"src": []
+									"src": "/C:/Users/User/Desktop/مستند/غلاف/‏‏mas - نسخة.jpg"
 								},
 								{
 									"key": "type",
@@ -702,7 +702,7 @@
 							"formdata": [
 								{
 									"key": "name",
-									"value": "ZVXVZXV",
+									"value": " asasf f asf asfa sf fas",
 									"type": "default"
 								},
 								{
@@ -1080,7 +1080,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"review\":\"dsfdfsdf\"\r\n}",
+							"raw": "{\r\n    \"review\":\"hjghgj\",\r\n    \"rating\":4,\r\n    \"tour\":\"663685c8ae3124e6704aec77\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1158,7 +1158,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"review\":\"dsfdfsdf\"\r\n}",
+							"raw": "{\r\n    \"tour\":\"663685c8ae3124e6704aec77\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
